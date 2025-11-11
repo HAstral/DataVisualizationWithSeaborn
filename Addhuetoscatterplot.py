@@ -5,7 +5,7 @@ import pandas as pd
 
 student_data=pd.read_csv('student-alcohol-consumption.csv')
 # Create a scatter plot of absences vs. final grade
-sns.scatterplot(x="absences",y="G3",data=student_data,hue='location')
+sns.scatterplot(x="absences",y="G3",data=student_data,hue='location',hue_order=["Rural","Urban"])
 
 
 
