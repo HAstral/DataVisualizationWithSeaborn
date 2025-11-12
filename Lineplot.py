@@ -5,7 +5,7 @@ import pandas as pd
 
 mpg=pd.read_csv('mpg.csv')
 # Create line plot
-sns.relplot(x='model_year',y='mpg',data=mpg,kind='line')
+sns.relplot(x='model_year',y='mpg',data=mpg,kind='line',ci='sd')
 
 
 # Show plot
