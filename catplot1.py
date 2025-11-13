@@ -17,3 +17,10 @@ sns.catplot(y="Internet usage", data=survey_data,
 
 # Show plot
 plt.show()
+
+# Separate into column subplots based on age category
+sns.catplot(y="Internet usage",col='Age Category', data=survey_data,
+            kind="count")
+
+# Show plot
+plt.show()
