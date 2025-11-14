@@ -15,3 +15,9 @@ type_of_g = type(g)
 
 # Print type
 print(type_of_g)
+
+# Add a title "Car Weight vs. Horsepower"
+g.fig.suptitle("Car Weight vs. Horsepower")
+
+# Show plot
+plt.show()
